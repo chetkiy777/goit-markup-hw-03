@@ -54,8 +54,14 @@ h3 {
   color: var(--main-text-color);
 }
 
+.section {
+  padding: 94px 0 94px 0;
+}
+
 .container {
-  padding: 94px 215px 94px 215px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wrapper {
@@ -64,13 +70,11 @@ h3 {
 
 /* Header - block */
 
-.header {
-  height: 80px;
+.header > .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   border-bottom: 1px solid var(--border-color);
-  padding: 0 215px 0 215px;
 }
 
 .logo-web {
@@ -90,21 +94,23 @@ h3 {
   color: var(--main-text-color);
 }
 
-.header-logo {
-  margin-right: 93px;
-}
-
 .nav-list {
   display: flex;
   flex-direction: row;
 }
 
+.nav-item + .nav-item {
+  margin-left: 50px;
+}
+
 .nav-link {
+  display: inline-block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   color: var(--main-text-color);
-  margin-right: 50px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .active {
@@ -146,7 +152,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   height: 600px;
-  padding: 200px 452px;
+  padding-top: 200px;
   background-color: var(--background-dark-color);
 }
 
@@ -172,7 +178,6 @@ h3 {
 .about-list {
   display: flex;
   flex-direction: row;
-  margin-bottom: 94px;
 }
 
 .about-item {
@@ -186,6 +191,10 @@ h3 {
   margin-left: 30px;
 }
 
+.we-do {
+  margin-top: 94px;
+}
+
 .work-type-list {
   display: flex;
   flex-direction: row;
@@ -195,6 +204,7 @@ h3 {
 
 .team-section {
   background: var(--background-light-color);
+  padding: 50px 215px 50px 215px;
 }
 
 .team-list {
@@ -225,6 +235,7 @@ h3 {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .filter-btn {

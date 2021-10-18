@@ -1,5 +1,5 @@
 {
-  "name": "hw2",
+  "name": "hw3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chetkiy777/goit-markup-hw-02.git"
+    "url": "git+https://github.com/chetkiy777/goit-markup-hw-03.git"
   },
   "author": "Igor Gladkiy <egunka1988@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chetkiy777/goit-markup-hw-02/issues"
+    "url": "https://github.com/chetkiy777/goit-markup-hw-03/issues"
   },
-  "homepage": "https://github.com/chetkiy777/goit-markup-hw-02",
+  "homepage": "https://github.com/chetkiy777/goit-markup-hw-03",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
