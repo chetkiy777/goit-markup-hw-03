@@ -20,6 +20,7 @@ body {
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   color: var(--main-text-color);
+  width: 100%;
 }
 
 ul {
@@ -72,11 +73,15 @@ h2 {
 
 /* Header - block */
 
+.header {
+  border-bottom: 1px solid var(--border-color);
+  width: 100%;
+}
+
 .header > .container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border-bottom: 1px solid var(--border-color);
 }
 
 .logo-web {
@@ -114,6 +119,7 @@ h2 {
   color: var(--main-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  letter-spacing: 0.02em;
 }
 
 .active {
@@ -138,6 +144,7 @@ h2 {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
@@ -207,6 +214,13 @@ h2 {
   text-transform: uppercase;
   color: var(--main-text-color);
   margin-bottom: 10px;
+}
+
+.about-item-text {
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 .about-item + .about-item {
@@ -305,6 +319,10 @@ h2 {
 
 .works-list-item {
   box-sizing: border-box;
+}
+
+.top-item {
+  margin-bottom: 30px;
 }
 
 .center-item {
