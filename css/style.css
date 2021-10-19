@@ -193,9 +193,11 @@ h2 {
 }
 
 .about-item {
+  display: inline-block;
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-text-color);
+  width: calc(100% / 4);
 }
 
 .about-item-title {
@@ -204,6 +206,7 @@ h2 {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--main-text-color);
+  margin-bottom: 10px;
 }
 
 .about-item + .about-item {
