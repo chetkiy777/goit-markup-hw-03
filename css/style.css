@@ -47,10 +47,9 @@ h2 {
 }
 
 h3 {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.15;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   color: var(--main-text-color);
 }
 
@@ -183,8 +182,15 @@ h3 {
 .about-item {
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+.about-item-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--main-text-color);
 }
 
 .about-item + .about-item {
@@ -225,6 +231,13 @@ h3 {
 .team-item-title {
   font-size: 16px;
   line-height: 1.19;
+  color: var(--main-text-color);
+}
+
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
   color: var(--secondary-text-color);
 }
 
