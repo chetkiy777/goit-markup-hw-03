@@ -5,6 +5,7 @@
   --secondary-text-color: #757575;
   --main-text-color: #212121;
   --border-color: #ececec;
+  --card-border-color: #eeeeee;
   --accent-color: #2196f3;
 }
 
@@ -258,12 +259,15 @@ h3 {
   outline: none;
   background: var(--background-light-color);
   border-radius: 4px;
+
+  padding: 6px 25px 6px 24px;
+
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   color: var(--main-text-color);
-  padding: 6px 25px 6px 24px;
 }
 
 .filter-btn:focus,
@@ -282,12 +286,22 @@ h3 {
 }
 
 .works-list-item {
-  border: 1px solid #eeeeee;
   margin-bottom: 30px;
 }
 
-.works-list-item > .item-title {
-  margin-left: 24px;
+.works-list-item img {
+  display: block;
+  max-width: 100%;
+}
+
+.text-thumb {
+  max-width: 370px;
+  background-color: #fff;
+  border: 1px solid var(--card-border-color);
+  padding-left: 24px;
+}
+
+.works-list-item .item-title {
   text-transform: none;
   font-weight: bold;
   font-size: 18px;
@@ -295,11 +309,10 @@ h3 {
   color: var(--main-text-color);
 }
 
-.works-list-item > .works-item-text {
+.works-list-item .works-item-text {
   font-size: 16px;
   line-height: 1.9;
   color: var(--secondary-text-color);
-  margin-left: 24px;
 }
 
 /* Footer - block */
